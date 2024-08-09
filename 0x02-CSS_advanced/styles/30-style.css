@@ -592,10 +592,10 @@ ul.row {
 }
 
 [data-section-theme="dark"] {
-    --text-color: #ffffff;
-    --section-title-color: #ffffff;
-    --background-color: #090909;
-    --button-color: var(--color-white);
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    --background-color: var(--color-black);
+    background-color: var(--background-color);
 }
 
 [data-section-theme="dark"] .section-title {
@@ -604,6 +604,7 @@ ul.row {
 
 [data-section-theme="dark"] body {
 color: var(--text-color);
+background-color: var(--background-color);
 }
 
 .footer-address {
