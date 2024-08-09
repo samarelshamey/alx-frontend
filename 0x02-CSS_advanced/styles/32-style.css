@@ -611,7 +611,7 @@ background-color: var(--background-color);
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
